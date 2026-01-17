@@ -1,16 +1,61 @@
-# React + Vite
+# ⚡ DotDash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DotDash is a modern **single-page React application** that encodes and decodes **Morse code** in real time.  
+It focuses on clean architecture, accessibility, and precise audio playback using native browser APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 https://dotdash-sable.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔁 Encode text to Morse code
+- 🔄 Decode Morse code back to text
+- ⚡ Real-time conversion
+- 🔊 Play Morse code as audio beeps
+- 🎛 Adjustable speed (WPM-ready)
+- 🎨 Clean, minimal UI
+- ♿ Accessibility-friendly
+- 📱 Fully responsive SPA
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Why DotDash?
+
+This project was built to demonstrate **real-world frontend engineering**, not just UI.
+
+Key focus areas:
+- Separation of concerns (UI vs logic)
+- Custom React hooks
+- Browser-native APIs (Web Audio API)
+- Thoughtful UX decisions
+
+
+---
+
+## 🧱 Tech Stack
+
+- **React** – UI framework
+- **Vite** – Fast build tool
+- **Tailwind CSS** – Styling
+- **Web Audio API** – Morse sound generation
+- **JavaScript (ES6+)**
+- **HTML5 / CSS3**
+- **Git & GitHub**
+- **Vercel** – Deployment
+
+---
+
+## 📁 Project Structure
+
+```txt
+src/
+├── components/        # Reusable UI components
+├── hooks/             # Custom React hooks
+├── utils/             # Morse encode/decode logic
+├── App.jsx            # Root component
+├── main.jsx           # Entry point
+└── index.css          # Global styles
