@@ -1,11 +1,7 @@
-import React from 'react'
-
-const Header = () => {
+export default function Header() {
   return (
-    <div>
-      header
-    </div>
-  )
+    <h1 className="text-4xl font-bold tracking-wide">
+      •— DotDash
+    </h1>
+  );
 }
-
-export default Header
